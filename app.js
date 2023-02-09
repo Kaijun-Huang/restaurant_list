@@ -26,7 +26,7 @@ app.get("/search", (req, res) => {
     item.name.toLowerCase().includes(keyword.toLowerCase())
   );
   console.log(searchedResto);
-  res.render("index", { resto: searchedResto, keyword: keyword });
+  res.render("index", { resto: searchedResto, keyword });
 });
 
 app.listen(port, () => {
