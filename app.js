@@ -29,5 +29,5 @@ app.get("/search", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`The page is running on http://localhost/${port}`);
+  console.log(`The page is running on http://localhost:${port}`);
 });
