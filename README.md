@@ -28,7 +28,7 @@ npm run start
 ```
 5. The server starts functioning when you see the message and then enter the link:  
 ```
-The page is running on http://localhost/3000
+The page is running on http://localhost:3000
 ```
 6. Press ctrl + c to pause the server  
 
