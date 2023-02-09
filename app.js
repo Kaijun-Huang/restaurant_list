@@ -25,7 +25,6 @@ app.get("/search", (req, res) => {
   const searchedResto = restoList.results.filter((item) =>
     item.name.toLowerCase().includes(keyword.toLowerCase())
   );
-  console.log(searchedResto);
   res.render("index", { resto: searchedResto, keyword });
 });
 
